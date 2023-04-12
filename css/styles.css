@@ -1,0 +1,46 @@
+body {
+    color: #434455;
+    background-color: #E5E5E5;
+}
+
+h2 {
+    color: tomato;
+}
+/*цвет основного текста #434455 */
+/* цвет фона #E5E5E5 */
+/* вторичный цвет текста #2E2F42 */
+/* акцент #4D5AE5 */
+/* белый #FFFFFF */
+
+/* hero */
+.hero {
+    background-color: #2e2F42;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+/* about us */
+.info-title {
+    color: #2e2F42;
+}
+
+/* Team */
+.team-title {
+    color: #2e2F42;
+}
+
+/* Footer */
+.footer {
+    background-color: #2e2F42;
+}
+
+.footer-text {
+    color: #FFFFFF;
+}
