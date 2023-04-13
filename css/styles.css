@@ -1,46 +1,106 @@
+:root {
+    --background-color:#FFFFFF;
+    --title-text-color:#2E2F42;
+    --primary-text-color:#434455;
+    --accent-color:#4D5AE5;
+    --secondary-color:#F4F4FD;
+}
 body {
-    color: #434455;
-    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+    background-color: var(--backgroundd-color);
+    font-family: Roboto, font;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em
 }
-
-h2 {
-    color: tomato;
+/* header */
+.header-nav {
+    color: var(--title-text-color);
 }
-/*цвет основного текста #434455 */
-/* цвет фона #E5E5E5 */
-/* вторичный цвет текста #2E2F42 */
-/* акцент #4D5AE5 */
-/* белый #FFFFFF */
-
+.header-logo {
+    font-family: Raleway,;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+}
+.header-logo:hover,
+.header-logo:focus {
+    color:var(--accent-color);
+}
+.logo-part {
+    color: var(--accent-color);
+}
+.nav-item:hover,
+.nav-item:focus {
+color:var(--accent-color)
+}
+nav.item {
+        font-weight: 500;
+}
+.contacts-link {
+    color: var(--primary-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+   background-color: (var(--background-color))
+}
 /* hero */
 .hero {
-    background-color: #2e2F42;
+    background-color: var(--title-text-color);
 }
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 
 .hero-btn {
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color:var(--accent-color);
+    background-color: var(--background-color);
 }
 
 /* about us */
 .info-title {
-    color: #2e2F42;
+    color: var(--title-text-color);
+}
+/* works section */
+.works-title {
+    color:var(--title-text-color);
 }
 
 /* Team */
 .team-title {
-    color: #2e2F42;
+    color: var(--title-text-color);
+}
+.team-list-title {
+    color:var(--title-text-color);
 }
 
 /* Footer */
-.footer {
-    background-color: #2e2F42;
+.footnote {
+    background-color: var(--title-text-color);
 }
 
-.footer-text {
-    color: #FFFFFF;
+.footnote-text {
+    color: var(--background-color);
+   
+}
+
+.footer-logo {
+    color:#F4F4FD
+}
+.footer-logo:hover,
+.footer-logo:focus {
+    color:var(--accent-color);
+}
+
+.link {
+    text-decoration: none;
 }
