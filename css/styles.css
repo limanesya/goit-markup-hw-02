@@ -3,7 +3,11 @@
     --title-text-color:#2E2F42;
     --primary-text-color:#434455;
     --accent-color:#4D5AE5;
-    --secondary-color:#F4F4FD;
+    --secondary-white-color:#F4F4FD;
+    --third-white-color:#E5E5E5E5;
+    --ocean-color: #404BBF;
+
+
 }
 body {
     color: var(--primary-text-color);
@@ -79,6 +83,7 @@ nav.item {
 /* about us */
 .info-title {
     color: var(--title-text-color);
+    background-color: var(--third-white-color);
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -86,6 +91,7 @@ nav.item {
 /* works section */
 .works-title {
     color:var(--title-text-color);
+    background-color: var(--third-white-color);
     font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
@@ -95,7 +101,7 @@ nav.item {
 
 /* Team */
 .team {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-white-color);
 }
 .team-title {
     color: var(--title-text-color);
@@ -139,3 +145,27 @@ nav.item {
     text-decoration: none;
 }
 /* PORTFOLIO */
+.portfolio {
+    background-color: var(--third-white-color);
+    color: var(--title-text-color);
+    font-family: Roboto, serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.portfolio-btn {
+    background-color: #F4F4FD;
+    color: var(--accent-color);
+    font-weight: 500;
+        font-size: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: var(--ocean-color);
+    color: var(--background-color);
+}
