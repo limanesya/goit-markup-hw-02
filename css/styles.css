@@ -14,6 +14,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em
 }
+/* INDEX.HTML */
 /* header */
 .header-nav {
     color: var(--title-text-color);
@@ -93,6 +94,9 @@ nav.item {
 }
 
 /* Team */
+.team {
+    background-color: var(--secondary-color);
+}
 .team-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -134,3 +138,4 @@ nav.item {
 .link {
     text-decoration: none;
 }
+/* PORTFOLIO */
