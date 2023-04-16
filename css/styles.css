@@ -20,7 +20,7 @@ body {
 }
 /* INDEX.HTML */
 /* header */
-.list {
+.header-nav {
     color: var(--title-text-color);
     list-style: none ;
 }
