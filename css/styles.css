@@ -16,26 +16,28 @@ body {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em
+        letter-spacing: 0.02em;
 }
 /* INDEX.HTML */
 /* header */
-.header-nav {
+.list {
     color: var(--title-text-color);
 }
 .header-logo {
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.2;
+        line-height: 1.17;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
-.header-logo:hover,
-.header-logo:focus {
+.logo-part:hover,
+.logo-part:focus {
     color:var(--accent-color);
 }
 .logo-part {
-    color: var(--accent-color);
+    color: var(--title-text-color);
 }
 .nav-item:hover,
 .nav-item:focus {
