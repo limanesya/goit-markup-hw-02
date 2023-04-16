@@ -44,7 +44,7 @@ body {
 .nav-item:focus {
 color:var(--accent-color);
 }
-nav.item {
+nav.item link {
         font-weight: 500;
         color: var(--title-text-color);
 }
@@ -55,7 +55,6 @@ nav.item {
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--accent-color);
-    background-color: var(--background-color);
 }
 /* hero */
 .hero {
