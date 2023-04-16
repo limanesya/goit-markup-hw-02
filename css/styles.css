@@ -161,12 +161,15 @@ nav.item, link {
 .portfolio-btn {
     background-color: #F4F4FD;
     color: var(--accent-color);
+    font-family: Roboto, sans-serif;
     font-weight: 500;
-        font-size: 1.5;
+        font-size: 16;
+        line-height: 1.5;
         display: flex;
         align-items: center;
         text-align: center;
         letter-spacing: 0.04em;
+        cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
