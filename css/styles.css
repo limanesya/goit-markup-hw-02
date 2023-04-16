@@ -44,7 +44,7 @@ body {
 .nav-item:focus {
 color:var(--accent-color);
 }
-nav.item link {
+nav.item, link {
         font-weight: 500;
         color: var(--title-text-color);
 }
