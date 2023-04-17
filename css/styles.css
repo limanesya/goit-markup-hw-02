@@ -86,11 +86,9 @@ color: var(--ocean-color);
 }
 
 /* about us */
-.hidden-title {
-    letter-spacing: 0.02em;
-}
 .info-title {
     color: var(--title-text-color);
+    letter-spacing: 0.02em;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
