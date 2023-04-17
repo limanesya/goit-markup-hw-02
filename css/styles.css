@@ -49,9 +49,12 @@ color: var(--ocean-color);
 .contacts {
     font-style: normal;
 }
+.contacts-link {
+    color: var(--primary-text-color);
+}
 .contacts-link:hover,
 .contacts-link:focus {
-    color: var(--accent-color);
+    color: var(--ocean-color);
 }
 /* hero */
 .hero {
@@ -160,9 +163,6 @@ color: var(--ocean-color);
     text-decoration: none;
 }
 /* PORTFOLIO */
-.list {
-    list-style: none;
-}
 .portfolio {
     background-color: var(--third-white-color);
     color: var(--title-text-color);
