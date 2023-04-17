@@ -20,39 +20,33 @@ body {
 }
 /* INDEX.HTML */
 /* header */
-.header-nav {
-    color: var(--title-text-color);
-    list-style: none ;
-}
 .header-logo {
     color: var(--accent-color);
-        font-family: Raleway, sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    }
-.header-logo-part:hover,
-.header-logo-part:focus {
-    color:var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.logo-part {
+.link {
+    text-decoration: none;
+}
+.header-logo-part {
     color: var(--title-text-color);
+}
+.list {
+    list-style: none;
+}
+.nav-item {
+    color: var(--title-text-color);
+    font-weight: 500;
 }
 .nav-item:hover,
 .nav-item:focus {
-color:var(--accent-color);
-}
-nav.item {
-        font-weight: 500;
-        color: var(--title-text-color);
+color: var(--ocean-color);
 }
 .contacts {
-    font-style: normal;
-}
-.contacts-link {
-    color: var(--primary-text-color);
     font-style: normal;
 }
 .contacts-link:hover,
