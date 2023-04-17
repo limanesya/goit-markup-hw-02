@@ -89,7 +89,7 @@ nav.item {
 }
 
 /* about us */
-.hidden {
+.hidden-title {
     letter-spacing: 0.02em;
 }
 .info-title {
@@ -109,6 +109,9 @@ nav.item {
 }
 
 /* Team */
+.team {
+    background-color: var(--secondary-white-color);
+}
 .team-title {
     color: var(--title-text-color);
     font-weight: 700;
