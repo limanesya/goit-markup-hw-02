@@ -48,7 +48,7 @@ nav.item {
         font-weight: 500;
         color: var(--title-text-color);
 }
-.contacts-list {
+.contacts {
     font-style: normal;
 }
 .contacts-link {
@@ -152,6 +152,9 @@ nav.item {
     text-decoration: none;
 }
 /* PORTFOLIO */
+.list {
+    list-style: none;
+}
 .portfolio {
     background-color: var(--third-white-color);
     color: var(--title-text-color);
